@@ -1,0 +1,37 @@
+[
+    {
+        "id": "admin-express",
+        "source": {
+            "type": "vector",
+            "tiles": ["/data/admin-express/{z}/{x}/{y}.pbf"],
+            "maxzoom": 9
+        }
+    },
+    {
+        "id": "administratif-associatif",
+        "source": {
+            "type": "vector",
+            "tiles": ["/data/etab-administratif-associatif/{z}/{x}/{y}.pbf"],
+            "minzoom": 12,
+            "maxzoom": 12
+        }
+    },
+    {
+        "id": "etab-sirene",
+        "source": {
+            "type": "vector",
+            "tiles": ["/data/sirene/{z}/{x}/{y}.pbf"],
+            "minzoom": 12,
+            "maxzoom": 12
+        }
+    },
+    {
+        "id": "entrepreneur-individuel",
+        "source": {
+            "type": "vector",
+            "tiles": ["/data/entrepreneur-individuel/{z}/{x}/{y}.pbf"],
+            "minzoom": 12,
+            "maxzoom": 12
+        }
+    }
+]

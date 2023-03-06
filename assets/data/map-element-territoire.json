@@ -1,0 +1,211 @@
+[
+    {
+        "id": "layerId",
+        "fullName": "Collectivite",
+        "position": 3,
+        "selected": true,
+        "category": "TERRITOIRE",
+        "filter": {},
+        "legend": {
+            "list": [
+                {
+                    "texte": "Texte legende 1",
+                    "color": "#78632e",
+                    "width": 10
+                },
+                {
+                    "texte": "Texte legende 2",
+                    "color": "#78352e",
+                    "width": 20
+                },
+                {
+                    "texte": "Texte legende 3",
+                    "color": "#dfedd5",
+                    "width": 30
+                },
+                {
+                    "texte": "Texte legende 4",
+                    "color": "#d5dbed",
+                    "width": 40
+                },
+                {
+                    "texte": "Texte legende 5",
+                    "color": "#f70707",
+                    "width": 50
+                }
+            ]
+        },
+        "layers": [
+            {
+                "id": "layerId",
+                "layer": {
+                    "id": "id-line",
+                    "source": "admin-express",
+                    "source-layer": "collectivite",
+                    "type": "fill",
+                    "paint": {
+                      "fill-color": "#2596A8",
+                      "fill-outline-color": "#2596A8",
+                      "fill-opacity": 0.5
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "layerId",
+        "fullName": "Departement",
+        "position": 3,
+        "selected": true,
+        "category": "TERRITOIRE",
+        "filter": {},
+        "legend": {
+            "list": [
+                {
+                    "texte": "Texte legende 1",
+                    "color": "#78632e",
+                    "width": 10
+                },
+                {
+                    "texte": "Texte legende 2",
+                    "color": "#78352e",
+                    "width": 20
+                },
+                {
+                    "texte": "Texte legende 3",
+                    "color": "#dfedd5",
+                    "width": 30
+                },
+                {
+                    "texte": "Texte legende 4",
+                    "color": "#d5dbed",
+                    "width": 40
+                },
+                {
+                    "texte": "Texte legende 5",
+                    "color": "#f70707",
+                    "width": 50
+                }
+            ]
+        },
+        "layers": [
+            {
+                "id": "layerId",
+                "layer": {
+                    "id": "id",
+                    "source": "admin-express",
+                    "source-layer": "departement",
+                    "type": "line",
+                    "paint": {
+                      "line-color": "#808080",
+                      "line-width": 2
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "layerId",
+        "fullName": "EPCI",
+        "position": 3,
+        "selected": false,
+        "category": "TERRITOIRE",
+        "filter": {},
+        "legend": {
+            "list": [
+                {
+                    "texte": "Texte legende 1",
+                    "color": "#78632e",
+                    "width": 10
+                },
+                {
+                    "texte": "Texte legende 2",
+                    "color": "#78352e",
+                    "width": 20
+                },
+                {
+                    "texte": "Texte legende 3",
+                    "color": "#dfedd5",
+                    "width": 30
+                },
+                {
+                    "texte": "Texte legende 4",
+                    "color": "#d5dbed",
+                    "width": 40
+                },
+                {
+                    "texte": "Texte legende 5",
+                    "color": "#f70707",
+                    "width": 50
+                }
+            ]
+        },
+        "layers": [
+            {
+                "id": "layerId",
+                "layer": {
+                    "id": "id",
+                    "source": "admin-express",
+                    "source-layer": "epci",
+                    "type": "line",
+                    "paint": {
+                      "line-color": "#808080",
+                      "line-width": 1
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "layerId",
+        "fullName": "Region",
+        "position": 3,
+        "selected": false,
+        "category": "TERRITOIRE",
+        "filter": {},
+        "legend": {
+            "list": [
+                {
+                    "texte": "Texte legende 1",
+                    "color": "#78632e",
+                    "width": 10
+                },
+                {
+                    "texte": "Texte legende 2",
+                    "color": "#78352e",
+                    "width": 20
+                },
+                {
+                    "texte": "Texte legende 3",
+                    "color": "#dfedd5",
+                    "width": 30
+                },
+                {
+                    "texte": "Texte legende 4",
+                    "color": "#d5dbed",
+                    "width": 40
+                },
+                {
+                    "texte": "Texte legende 5",
+                    "color": "#f70707",
+                    "width": 50
+                }
+            ]
+        },
+        "layers": [
+            {
+                "id": "layerId",
+                "layer": {
+                    "id": "id",
+                    "source": "admin-express",
+                    "source-layer": "region",
+                    "type": "line",
+                    "paint": {
+                        "line-color": "#808080",
+                        "line-width": 3
+                    }
+                }
+            }
+        ]
+    }
+]

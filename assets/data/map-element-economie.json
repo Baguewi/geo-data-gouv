@@ -1,0 +1,151 @@
+[
+    {
+        "id": "layerId",
+        "fullName": "Personne morale et organisme soumis au droit administratif",
+        "info": "Données visible à partir du zoom 14",
+        "position": 11,
+        "selected": false,
+        "category": "ECONOMIE",
+        "filter": {},
+        "legend": {
+            "list": [
+                {
+                    "texte": "Administration de l'état",
+                    "color": "#2A4B18",
+                    "type": "CIRCLE",
+                    "width": 10
+                },
+                {
+                    "texte": "Collectivité territoriale",
+                    "color": "#2A4B18",
+                    "type": "CIRCLE",
+                    "width": 10
+                },
+                {
+                    "texte": "Etablissement public administratif",
+                    "color": "#2A4B18",
+                    "type": "CIRCLE",
+                    "width": 10
+                },
+                {
+                    "texte": "Autre personne morale de droit public administratif",
+                    "color": "#2A4B18",
+                    "type": "CIRCLE",
+                    "width": 10
+                }
+            ]
+        },
+        "layers": [
+            {
+                "id": "layerId",
+                "layer": {
+                    "id": "id-circle",
+                    "source": "administratif-associatif",
+                    "source-layer": "etab_public",
+                    "type": "circle",
+                    "minzoom": 14,
+                    "paint": {
+                      "circle-color": "#2A4B18",
+                      "circle-opacity": 0.9
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "layerId",
+        "fullName": "Établissement des unités légales",
+        "info": "Données visible à partir du zoom 14",
+        "position": 6,
+        "selected": true,
+        "category": "ECONOMIE",
+        "filter": {},
+        "legend": {
+            "list": [
+                {
+                    "texte": "Non classée",
+                    "color": "#C11B3C",
+                    "type": "CIRCLE",
+                    "width": 5
+                },
+                {
+                    "texte": "Petite ou Moyenne Entreprise",
+                    "color": "#C11B3C",
+                    "type": "CIRCLE",
+                    "width": 10
+                },
+                {
+                    "texte": "Entreprise de Taille Intermédiaire",
+                    "color": "#C11B3C",
+                    "type": "CIRCLE",
+                    "width": 20
+                },
+                {
+                    "texte": "Grande Entreprise",
+                    "color": "#C11B3C",
+                    "type": "CIRCLE",
+                    "width": 30
+                }
+            ]
+        },
+        "layers": [
+            {
+                "id": "layerId",
+                "layer": {
+                    "id": "id-circle",
+                    "source": "etab-sirene",
+                    "source-layer": "sirene",
+                    "type": "circle",
+                    "minzoom": 14,
+                    "paint": {
+                      "circle-color": "#C11B3C",
+                      "circle-opacity": 0.5,
+                      "circle-radius": [
+                        "match",
+                        ["get", "categorie"],
+                        "PME", 6,
+                        "ETI", 9,
+                        "GE", 12,
+                        3
+                      ]
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "layerId",
+        "fullName": "Entreprise individuelle",
+        "info": "Données visible à partir du zoom 14",
+        "position": 11,
+        "selected": false,
+        "category": "ECONOMIE",
+        "filter": {},
+        "legend": {
+            "list": [
+                {
+                    "texte": "Entreprise individuelle",
+                    "color": "#6069E0",
+                    "type": "CIRCLE",
+                    "width": 10
+                }
+            ]
+        },
+        "layers": [
+            {
+                "id": "layerId",
+                "layer": {
+                    "id": "id-circle",
+                    "source": "entrepreneur-individuel",
+                    "source-layer": "ent_individuel",
+                    "type": "circle",
+                    "minzoom": 14,
+                    "paint": {
+                      "circle-color": "#6069E0",
+                      "circle-opacity": 0.8
+                    }
+                }
+            }
+        ]
+    }
+]

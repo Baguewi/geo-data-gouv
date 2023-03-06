@@ -1,0 +1,113 @@
+[
+    {
+        "id": "layerId",
+        "fullName": "Layer 7",
+        "position": 7,
+        "selected": false,
+        "category": "DVF",
+        "filter": {},
+        "legend": {
+            "list": [
+                {
+                    "texte": "Texte legende 1",
+                    "color": "#78632e",
+                    "width": 10
+                },
+                {
+                    "texte": "Texte legende 2",
+                    "color": "#78352e",
+                    "width": 10
+                },
+                {
+                    "texte": "Texte legende 3",
+                    "color": "#dfedd5",
+                    "width": 10
+                },
+                {
+                    "texte": "Texte legende 4",
+                    "color": "#d5dbed",
+                    "width": 10
+                },
+                {
+                    "texte": "Texte legende 5",
+                    "color": "#f70707",
+                    "width": 10
+                }
+            ]
+        }
+    },
+    {
+        "id": "layerId",
+        "fullName": "Layer 12",
+        "position": 12,
+        "selected": true,
+        "category": "DVF",
+        "filter": {},
+        "legend": {
+            "list": [
+                {
+                    "texte": "Texte legende 1",
+                    "color": "#78632e",
+                    "width": 10
+                },
+                {
+                    "texte": "Texte legende 2",
+                    "color": "#78352e",
+                    "width": 10
+                },
+                {
+                    "texte": "Texte legende 3",
+                    "color": "#dfedd5",
+                    "width": 10
+                },
+                {
+                    "texte": "Texte legende 4",
+                    "color": "#d5dbed",
+                    "width": 10
+                },
+                {
+                    "texte": "Texte legende 5",
+                    "color": "#f70707",
+                    "width": 10
+                }
+            ]
+        }
+    },
+    {
+        "id": "layerId",
+        "fullName": "Layer 2",
+        "position": 2,
+        "selected": false,
+        "category": "DVF",
+        "filter": {},
+        "legend": {
+            "list": [
+                {
+                    "texte": "Texte legende 1",
+                    "color": "#78632e",
+                    "width": 10
+                },
+                {
+                    "texte": "Texte legende 2",
+                    "color": "#78352e",
+                    "width": 20
+                },
+                {
+                    "texte": "Texte legende 3",
+                    "color": "#dfedd5",
+                    "width": 30
+                },
+                {
+                    "texte": "Texte legende 4",
+                    "color": "#d5dbed",
+                    "width": 40
+                },
+                {
+                    "texte": "Texte legende 5",
+                    "color": "#f70707",
+                    "width": 50
+                }
+            ]
+        }
+    }
+]

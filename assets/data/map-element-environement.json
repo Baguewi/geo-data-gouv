@@ -1,0 +1,113 @@
+[
+    {
+        "id": "layerId",
+        "fullName": "Layer 1",
+        "position": 1,
+        "selected": true,
+        "category": "ENVIRONEMENT",
+        "filter": {},
+        "legend": {
+            "list": [
+                {
+                    "texte": "Texte legende 1",
+                    "color": "#78632e",
+                    "width": 10
+                },
+                {
+                    "texte": "Texte legende 2",
+                    "color": "#78352e",
+                    "width": 10
+                },
+                {
+                    "texte": "Texte legende 3",
+                    "color": "#dfedd5",
+                    "width": 10
+                },
+                {
+                    "texte": "Texte legende 4",
+                    "color": "#d5dbed",
+                    "width": 10
+                },
+                {
+                    "texte": "Texte legende 5",
+                    "color": "#f70707",
+                    "width": 10
+                }
+            ]
+        }
+    },
+    {
+        "id": "layerId",
+        "fullName": "Layer 5",
+        "position": 5,
+        "selected": false,
+        "category": "ENVIRONEMENT",
+        "filter": {},
+        "legend": {
+            "list": [
+                {
+                    "texte": "Texte legende 1",
+                    "color": "#78632e",
+                    "width": 10
+                },
+                {
+                    "texte": "Texte legende 2",
+                    "color": "#78352e",
+                    "width": 20
+                },
+                {
+                    "texte": "Texte legende 3",
+                    "color": "#dfedd5",
+                    "width": 30
+                },
+                {
+                    "texte": "Texte legende 4",
+                    "color": "#d5dbed",
+                    "width": 40
+                },
+                {
+                    "texte": "Texte legende 5",
+                    "color": "#f70707",
+                    "width": 50
+                }
+            ]
+        }
+    },
+    {
+        "id": "layerId",
+        "fullName": "Layer 10",
+        "position": 10,
+        "selected": false,
+        "category": "ENVIRONEMENT",
+        "filter": {},
+        "legend": {
+            "list": [
+                {
+                    "texte": "Texte legende 1",
+                    "color": "#78632e",
+                    "width": 10
+                },
+                {
+                    "texte": "Texte legende 2",
+                    "color": "#78352e",
+                    "width": 20
+                },
+                {
+                    "texte": "Texte legende 3",
+                    "color": "#dfedd5",
+                    "width": 30
+                },
+                {
+                    "texte": "Texte legende 4",
+                    "color": "#d5dbed",
+                    "width": 40
+                },
+                {
+                    "texte": "Texte legende 5",
+                    "color": "#f70707",
+                    "width": 50
+                }
+            ]
+        }
+    }
+]
