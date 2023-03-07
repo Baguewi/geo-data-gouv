@@ -1,37 +1,19 @@
 [
     {
         "id": "layerId",
-        "fullName": "Collectivite",
+        "fullName": "Commune",
         "position": 3,
         "selected": true,
         "category": "TERRITOIRE",
+        "info": "Données visible à partir du zoom 8 jusqu'au zoom 14",
         "filter": {},
         "legend": {
             "list": [
                 {
-                    "texte": "Texte legende 1",
-                    "color": "#78632e",
+                    "texte": "Commune",
+                    "color": "#597f85",
+                    "type": "CARRE",
                     "width": 10
-                },
-                {
-                    "texte": "Texte legende 2",
-                    "color": "#78352e",
-                    "width": 20
-                },
-                {
-                    "texte": "Texte legende 3",
-                    "color": "#dfedd5",
-                    "width": 30
-                },
-                {
-                    "texte": "Texte legende 4",
-                    "color": "#d5dbed",
-                    "width": 40
-                },
-                {
-                    "texte": "Texte legende 5",
-                    "color": "#f70707",
-                    "width": 50
                 }
             ]
         },
@@ -41,8 +23,60 @@
                 "layer": {
                     "id": "id-line",
                     "source": "admin-express",
+                    "source-layer": "commune",
+                    "type": "line",
+                    "minzoom": 8,
+                    "maxzoom": 14,
+                    "paint": {
+                      "line-color": "#2596A8",
+                      "line-width": 1
+                    }
+                }
+            },
+            {
+                "id": "layerId",
+                "layer": {
+                    "id": "id-fill",
+                    "source": "admin-express",
+                    "source-layer": "commune",
+                    "type": "fill",
+                    "minzoom": 8,
+                    "maxzoom": 14,
+                    "paint": {
+                      "fill-color": "#597f85",
+                      "fill-opacity": 0.5
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "layerId",
+        "fullName": "Collectivite",
+        "position": 3,
+        "selected": true,
+        "category": "TERRITOIRE",
+        "info": "Données visible jusqu'au zoom 14",
+        "filter": {},
+        "legend": {
+            "list": [
+                {
+                    "texte": "Collectivite",
+                    "color": "#2596A8",
+                    "type": "CARRE",
+                    "width": 10
+                }
+            ]
+        },
+        "layers": [
+            {
+                "id": "layerId",
+                "layer": {
+                    "id": "id-fill",
+                    "source": "admin-express",
                     "source-layer": "collectivite",
                     "type": "fill",
+                    "maxzoom": 14,
                     "paint": {
                       "fill-color": "#2596A8",
                       "fill-outline-color": "#2596A8",
@@ -62,29 +96,10 @@
         "legend": {
             "list": [
                 {
-                    "texte": "Texte legende 1",
-                    "color": "#78632e",
+                    "texte": "Departement",
+                    "color": "#808080",
+                    "type": "LIGNE",
                     "width": 10
-                },
-                {
-                    "texte": "Texte legende 2",
-                    "color": "#78352e",
-                    "width": 20
-                },
-                {
-                    "texte": "Texte legende 3",
-                    "color": "#dfedd5",
-                    "width": 30
-                },
-                {
-                    "texte": "Texte legende 4",
-                    "color": "#d5dbed",
-                    "width": 40
-                },
-                {
-                    "texte": "Texte legende 5",
-                    "color": "#f70707",
-                    "width": 50
                 }
             ]
         },
@@ -114,29 +129,10 @@
         "legend": {
             "list": [
                 {
-                    "texte": "Texte legende 1",
-                    "color": "#78632e",
+                    "texte": "EPCI",
+                    "color": "#808080",
+                    "type": "LIGNE",
                     "width": 10
-                },
-                {
-                    "texte": "Texte legende 2",
-                    "color": "#78352e",
-                    "width": 20
-                },
-                {
-                    "texte": "Texte legende 3",
-                    "color": "#dfedd5",
-                    "width": 30
-                },
-                {
-                    "texte": "Texte legende 4",
-                    "color": "#d5dbed",
-                    "width": 40
-                },
-                {
-                    "texte": "Texte legende 5",
-                    "color": "#f70707",
-                    "width": 50
                 }
             ]
         },
@@ -166,29 +162,10 @@
         "legend": {
             "list": [
                 {
-                    "texte": "Texte legende 1",
-                    "color": "#78632e",
+                    "texte": "Region",
+                    "color": "#808080",
+                    "type": "LIGNE",
                     "width": 10
-                },
-                {
-                    "texte": "Texte legende 2",
-                    "color": "#78352e",
-                    "width": 20
-                },
-                {
-                    "texte": "Texte legende 3",
-                    "color": "#dfedd5",
-                    "width": 30
-                },
-                {
-                    "texte": "Texte legende 4",
-                    "color": "#d5dbed",
-                    "width": 40
-                },
-                {
-                    "texte": "Texte legende 5",
-                    "color": "#f70707",
-                    "width": 50
                 }
             ]
         },

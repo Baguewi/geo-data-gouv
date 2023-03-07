@@ -4,7 +4,7 @@
         "fullName": "Layer 7",
         "position": 7,
         "selected": false,
-        "category": "DVF",
+        "category": "_DVF",
         "filter": {},
         "legend": {
             "list": [
@@ -41,7 +41,7 @@
         "fullName": "Layer 12",
         "position": 12,
         "selected": true,
-        "category": "DVF",
+        "category": "_DVF",
         "filter": {},
         "legend": {
             "list": [
@@ -78,7 +78,7 @@
         "fullName": "Layer 2",
         "position": 2,
         "selected": false,
-        "category": "DVF",
+        "category": "_DVF",
         "filter": {},
         "legend": {
             "list": [

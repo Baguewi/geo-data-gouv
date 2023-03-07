@@ -4,7 +4,7 @@
         "fullName": "Layer 1",
         "position": 1,
         "selected": true,
-        "category": "ENVIRONEMENT",
+        "category": "_ENVIRONEMENT",
         "filter": {},
         "legend": {
             "list": [
@@ -41,7 +41,7 @@
         "fullName": "Layer 5",
         "position": 5,
         "selected": false,
-        "category": "ENVIRONEMENT",
+        "category": "_ENVIRONEMENT",
         "filter": {},
         "legend": {
             "list": [
@@ -78,7 +78,7 @@
         "fullName": "Layer 10",
         "position": 10,
         "selected": false,
-        "category": "ENVIRONEMENT",
+        "category": "_ENVIRONEMENT",
         "filter": {},
         "legend": {
             "list": [

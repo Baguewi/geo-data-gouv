@@ -46,7 +46,8 @@
                     "minzoom": 14,
                     "paint": {
                       "circle-color": "#2A4B18",
-                      "circle-opacity": 0.9
+                      "circle-opacity": 0.9,
+                      "circle-radius": 5
                     }
                 }
             }
@@ -66,13 +67,13 @@
                     "texte": "Non classée",
                     "color": "#C11B3C",
                     "type": "CIRCLE",
-                    "width": 5
+                    "width": 10
                 },
                 {
                     "texte": "Petite ou Moyenne Entreprise",
                     "color": "#C11B3C",
                     "type": "CIRCLE",
-                    "width": 10
+                    "width": 15
                 },
                 {
                     "texte": "Entreprise de Taille Intermédiaire",
@@ -84,7 +85,7 @@
                     "texte": "Grande Entreprise",
                     "color": "#C11B3C",
                     "type": "CIRCLE",
-                    "width": 30
+                    "width": 25
                 }
             ]
         },
@@ -103,10 +104,10 @@
                       "circle-radius": [
                         "match",
                         ["get", "categorie"],
-                        "PME", 6,
-                        "ETI", 9,
-                        "GE", 12,
-                        3
+                        "PME", 9,
+                        "ETI", 12,
+                        "GE", 15,
+                        6
                       ]
                     }
                 }
@@ -142,7 +143,8 @@
                     "minzoom": 14,
                     "paint": {
                       "circle-color": "#6069E0",
-                      "circle-opacity": 0.8
+                      "circle-opacity": 0.8,
+                      "circle-radius": 5
                     }
                 }
             }

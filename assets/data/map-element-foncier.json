@@ -4,7 +4,7 @@
         "fullName": "Layer 4",
         "position": 4,
         "selected": false,
-        "category": "FONCIER",
+        "category": "_FONCIER",
         "filter": {},
         "legend": {
             "list": [
@@ -41,7 +41,7 @@
         "fullName": "Layer 9",
         "position": 9,
         "selected": true,
-        "category": "FONCIER",
+        "category": "_FONCIER",
         "filter": {},
         "legend": {
             "list": [
