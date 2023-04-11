@@ -2,6 +2,7 @@
     {
         "id": "layerId",
         "fullName": "Layer 7",
+        "minZoom": 13,
         "position": 7,
         "selected": false,
         "category": "_DVF",
@@ -39,6 +40,7 @@
     {
         "id": "layerId",
         "fullName": "Layer 12",
+        "minZoom": 13,
         "position": 12,
         "selected": true,
         "category": "_DVF",
@@ -76,6 +78,7 @@
     {
         "id": "layerId",
         "fullName": "Layer 2",
+        "minZoom": 13,
         "position": 2,
         "selected": false,
         "category": "_DVF",

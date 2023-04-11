@@ -1,44 +1,67 @@
 [
     {
         "id": "layerId",
-        "fullName": "Layer 4",
+        "fullName": "Bati",
+        "minZoom": 14,
+        "info": "Données visible à partir du zoom 14",
         "position": 4,
-        "selected": false,
-        "category": "_FONCIER",
+        "selected": true,
+        "pitch": true,
+        "category": "FONCIER",
         "filter": {},
         "legend": {
             "list": [
                 {
-                    "texte": "Texte legende 1",
-                    "color": "#78632e",
-                    "width": 10
-                },
-                {
-                    "texte": "Texte legende 2",
-                    "color": "#78352e",
-                    "width": 10
-                },
-                {
-                    "texte": "Texte legende 3",
-                    "color": "#dfedd5",
-                    "width": 10
-                },
-                {
-                    "texte": "Texte legende 4",
-                    "color": "#d5dbed",
-                    "width": 10
-                },
-                {
-                    "texte": "Texte legende 5",
-                    "color": "#f70707",
+                    "texte": "Bati",
+                    "color": "#597f85",
+                    "type": "CARRE",
                     "width": 10
                 }
             ]
-        }
+        },
+        "layers": [
+            {
+                "id": "layerId",
+                "sourceLayer": "batiproprietaire",
+                "hover": true,
+                "hoverLayerRef": "parcelles-bati-hover",
+                "layer": {
+                    "id": "id-fill-extrusion",
+                    "source": "bati-proprietaire",
+                    "source-layer": "batiproprietaire",
+                    "type": "fill-extrusion",
+                    "minzoom": 14,
+                    "paint": {
+                        "fill-extrusion-color": "#aaa",
+                        "fill-extrusion-height": ["get", "hauteur"],
+                        "fill-extrusion-opacity": 0.8
+                    }
+                }
+            },
+            {
+                "id": "layerId",
+                "sourceLayer": "parcelles",
+                "hoverId": "parcelles-bati-hover",
+                "defaultFilter": ["in", "id", ""],
+                "layer": {
+                    "id": "id-fill",
+                    "source": "cadastre",
+                    "source-layer": "parcelles",
+                    "type": "fill",
+                    "minzoom": 14,
+                    "paint": {
+                        "fill-outline-color": "#484896",
+                        "fill-color": "#6e599f",
+                        "fill-opacity": 0.75
+                    }
+                }
+            }
+        ]
     },
     {
         "id": "layerId",
         "fullName": "Layer 9",
+        "minZoom": 13,
         "position": 9,
         "selected": true,
         "category": "_FONCIER",

@@ -2,6 +2,7 @@
     {
         "id": "layerId",
         "fullName": "Commune",
+        "minZoom": 8,
         "position": 3,
         "selected": true,
         "category": "TERRITOIRE",
@@ -20,6 +21,7 @@
         "layers": [
             {
                 "id": "layerId",
+                "sourceLayer": "commune",
                 "layer": {
                     "id": "id-line",
                     "source": "admin-express",
@@ -35,6 +37,7 @@
             },
             {
                 "id": "layerId",
+                "sourceLayer": "commune",
                 "layer": {
                     "id": "id-fill",
                     "source": "admin-express",
@@ -53,6 +56,7 @@
     {
         "id": "layerId",
         "fullName": "Collectivite",
+        "minZoom": 0,
         "position": 3,
         "selected": true,
         "category": "TERRITOIRE",
@@ -71,6 +75,7 @@
         "layers": [
             {
                 "id": "layerId",
+                "sourceLayer": "collectivite",
                 "layer": {
                     "id": "id-fill",
                     "source": "admin-express",
@@ -89,6 +94,7 @@
     {
         "id": "layerId",
         "fullName": "Departement",
+        "minZoom": 0,
         "position": 3,
         "selected": true,
         "category": "TERRITOIRE",
@@ -106,6 +112,7 @@
         "layers": [
             {
                 "id": "layerId",
+                "sourceLayer": "departement",
                 "layer": {
                     "id": "id",
                     "source": "admin-express",
@@ -122,6 +129,7 @@
     {
         "id": "layerId",
         "fullName": "EPCI",
+        "minZoom": 0,
         "position": 3,
         "selected": false,
         "category": "TERRITOIRE",
@@ -139,6 +147,7 @@
         "layers": [
             {
                 "id": "layerId",
+                "sourceLayer": "epci",
                 "layer": {
                     "id": "id",
                     "source": "admin-express",
@@ -155,6 +164,7 @@
     {
         "id": "layerId",
         "fullName": "Region",
+        "minZoom": 0,
         "position": 3,
         "selected": false,
         "category": "TERRITOIRE",
@@ -172,6 +182,7 @@
         "layers": [
             {
                 "id": "layerId",
+                "sourceLayer": "region",
                 "layer": {
                     "id": "id",
                     "source": "admin-express",
