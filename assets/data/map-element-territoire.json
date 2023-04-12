@@ -58,7 +58,7 @@
         "fullName": "Collectivite",
         "minZoom": 0,
         "position": 3,
-        "selected": true,
+        "selected": false,
         "category": "TERRITOIRE",
         "info": "Données visible jusqu'au zoom 14",
         "filter": {},

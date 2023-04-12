@@ -13,7 +13,7 @@
             "list": [
                 {
                     "texte": "Bati",
-                    "color": "#597f85",
+                    "color": "#aaa",
                     "type": "CARRE",
                     "width": 10
                 }
@@ -40,6 +40,24 @@
             },
             {
                 "id": "layerId",
+                "sourceLayer": "batiproprietaire",
+                "hoverId": "parcelles-bati-hover",
+                "defaultFilter": ["in", "id", ""],
+                "layer": {
+                    "id": "id-fill-extrusion",
+                    "source": "bati-proprietaire",
+                    "source-layer": "batiproprietaire",
+                    "type": "fill-extrusion",
+                    "minzoom": 14,
+                    "paint": {
+                        "fill-extrusion-color": "#627BC1",
+                        "fill-extrusion-height": ["get", "hauteur"],
+                        "fill-extrusion-opacity": 1
+                    }
+                }
+            },
+            {
+                "id": "layerId",
                 "sourceLayer": "parcelles",
                 "hoverId": "parcelles-bati-hover",
                 "defaultFilter": ["in", "id", ""],
@@ -51,7 +69,7 @@
                     "minzoom": 14,
                     "paint": {
                         "fill-outline-color": "#484896",
-                        "fill-color": "#6e599f",
+                        "fill-color": "#ad1d30",
                         "fill-opacity": 0.75
                     }
                 }
@@ -60,40 +78,60 @@
     },
     {
         "id": "layerId",
-        "fullName": "Layer 9",
-        "minZoom": 13,
+        "fullName": "Cadastre",
+        "minZoom": 14,
+        "info": "Données visible à partir du zoom 14",
         "position": 9,
-        "selected": true,
-        "category": "_FONCIER",
+        "selected": false,
+        "category": "FONCIER",
         "filter": {},
         "legend": {
             "list": [
                 {
-                    "texte": "Texte legende 1",
-                    "color": "#78632e",
+                    "texte": "Cadastre",
+                    "color": "#4d4d4d",
+                    "type": "CARRE",
                     "width": 10
-                },
-                {
-                    "texte": "Texte legende 2",
-                    "color": "#78352e",
-                    "width": 20
-                },
-                {
-                    "texte": "Texte legende 3",
-                    "color": "#dfedd5",
-                    "width": 30
-                },
-                {
-                    "texte": "Texte legende 4",
-                    "color": "#d5dbed",
-                    "width": 40
-                },
-                {
-                    "texte": "Texte legende 5",
-                    "color": "#f70707",
-                    "width": 50
                 }
             ]
-        }
+        },
+        "layers": [
+            {
+                "id": "layerId",
+                "sourceLayer": "parcelles",
+                "hover": true,
+                "hoverLayerRef": "parcelles-cadastre-hover",
+                "layer": {
+                    "id": "id-fill",
+                    "source": "cadastre",
+                    "source-layer": "parcelles",
+                    "type": "fill",
+                    "minzoom": 14,
+                    "paint": {
+                        "fill-outline-color": "#4d4d4d",
+                        "fill-color": "#4d4d4d",
+                        "fill-opacity": 0.5
+                    }
+                }
+            },
+            {
+                "id": "layerId",
+                "sourceLayer": "parcelles",
+                "hoverId": "parcelles-cadastre-hover",
+                "defaultFilter": ["in", "id", ""],
+                "layer": {
+                    "id": "id-fill",
+                    "source": "cadastre",
+                    "source-layer": "parcelles",
+                    "type": "fill",
+                    "minzoom": 14,
+                    "paint": {
+                        "fill-outline-color": "#484896",
+                        "fill-color": "#ad1d30",
+                        "fill-opacity": 0.75
+                    }
+                }
+            }
+        ]
     }
 ]

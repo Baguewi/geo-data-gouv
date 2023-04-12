@@ -12,25 +12,25 @@
             "list": [
                 {
                     "texte": "Administration de l'état",
-                    "color": "#2A4B18",
+                    "color": "#fbb03b",
                     "type": "CIRCLE",
                     "width": 10
                 },
                 {
                     "texte": "Collectivité territoriale",
-                    "color": "#2A4B18",
+                    "color": "#223b53",
                     "type": "CIRCLE",
                     "width": 10
                 },
                 {
                     "texte": "Etablissement public administratif",
-                    "color": "#2A4B18",
+                    "color": "#e55e5e",
                     "type": "CIRCLE",
                     "width": 10
                 },
                 {
                     "texte": "Autre personne morale de droit public administratif",
-                    "color": "#2A4B18",
+                    "color": "#3bb2d0",
                     "type": "CIRCLE",
                     "width": 10
                 }
@@ -47,9 +47,23 @@
                     "type": "circle",
                     "minzoom": 15,
                     "paint": {
-                      "circle-color": "#2A4B18",
-                      "circle-opacity": 0.9,
-                      "circle-radius": 5
+                        "circle-color": [
+                            "match",
+                            ["slice", ["get", "cat_juridique"], 0, 2],
+                            "71", "#fbb03b",
+                            "72", "#223b53",
+                            "73", "#e55e5e",
+                            "74", "#3bb2d0",
+                            "#ccc"
+                        ],
+                        "circle-opacity": 0.9,
+                        "circle-radius": {
+                            "base": 7,
+                            "stops": [
+                                [14, 8],
+                                [18, 14]
+                            ]
+                        }
                     }
                 }
             }
@@ -108,10 +122,10 @@
                       "circle-radius": [
                         "match",
                         ["get", "categorie"],
-                        "PME", 9,
-                        "ETI", 12,
-                        "GE", 15,
-                        6
+                        "PME", 10,
+                        "ETI", 13,
+                        "GE", 16,
+                        8
                       ]
                     }
                 }
@@ -150,7 +164,7 @@
                     "paint": {
                       "circle-color": "#6069E0",
                       "circle-opacity": 0.8,
-                      "circle-radius": 5
+                      "circle-radius": 7
                     }
                 }
             }
