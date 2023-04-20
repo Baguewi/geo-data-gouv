@@ -78,6 +78,118 @@
     },
     {
         "id": "layerId",
+        "fullName": "Plan Local d'Urbanisme (PLU)",
+        "minZoom": 14,
+        "info": "Données visible à partir du zoom 14",
+        "position": 9,
+        "selected": false,
+        "category": "FONCIER",
+        "filter": {},
+        "legend": {
+            "list": [
+                {
+                    "texte": "Zone urbaine",
+                    "color": "#ff0000",
+                    "type": "CARRE",
+                    "width": 10
+                },
+                {
+                    "texte": "Zone à urbaniser, ouverte",
+                    "color": "#ff6600",
+                    "type": "CARRE",
+                    "width": 10
+                },
+                {
+                    "texte": "Zone à urbaniser, bloquée",
+                    "color": "#ffe6e6",
+                    "type": "CARRE",
+                    "width": 10
+                },
+                {
+                    "texte": "Zone agricole",
+                    "color": "#ffff00",
+                    "type": "CARRE",
+                    "width": 10
+                },
+                {
+                    "texte": "Zone naturelle et forestière",
+                    "color": "#003300",
+                    "type": "CARRE",
+                    "width": 10
+                },
+                {
+                    "texte": "Secteur ouvert à la construction",
+                    "color": "#800000",
+                    "type": "CARRE",
+                    "width": 10
+                },
+                {
+                    "texte": "Secteur réservé aux activités",
+                    "color": "#8000ff",
+                    "type": "CARRE",
+                    "width": 10
+                },
+                {
+                    "texte": "Constructions non autorisées",
+                    "color": "#00ff00",
+                    "type": "CARRE",
+                    "width": 10
+                }
+            ]
+        },
+        "layers": [
+            {
+                "id": "layerId",
+                "sourceLayer": "pluzoneurba",
+                "hover": true,
+                "hoverLayerRef": "plu-zone-urba-hover",
+                "layer": {
+                    "id": "id-fill",
+                    "source": "plu-zone-urba",
+                    "source-layer": "pluzoneurba",
+                    "type": "fill",
+                    "minzoom": 10,
+                    "paint": {
+                        "fill-outline-color": "#4d4d4d",
+                        "fill-color": [
+                            "match",
+                            ["get", "typezone"],
+                            "A", "#ffff00",
+                            "AUc", "#ff6600",
+                            "AUs", "#ffe6e6",
+                            "Ah", "#8000ff",
+                            "N", "#003300",
+                            "Nd", "#00ff00",
+                            "Nh", "#800000",
+                            "U", "#ff0000",
+                            "#fff"
+                        ],
+                        "fill-opacity": 0.5
+                    }
+                }
+            },
+            {
+                "id": "layerId",
+                "sourceLayer": "pluzoneurba",
+                "hoverId": "plu-zone-urba-hover",
+                "defaultFilter": ["in", "id", ""],
+                "layer": {
+                    "id": "id-fill",
+                    "source": "plu-zone-urba",
+                    "source-layer": "papluzoneurbarcelles",
+                    "type": "fill",
+                    "minzoom": 14,
+                    "paint": {
+                        "fill-outline-color": "#484896",
+                        "fill-color": "#ad1d30",
+                        "fill-opacity": 0.75
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "layerId",
         "fullName": "Cadastre",
         "minZoom": 14,
         "info": "Données visible à partir du zoom 14",

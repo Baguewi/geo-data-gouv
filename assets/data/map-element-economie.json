@@ -40,6 +40,7 @@
             {
                 "id": "layerId",
                 "sourceLayer": "etab_public",
+                "hover": true,
                 "layer": {
                     "id": "id-circle",
                     "source": "administratif-associatif",
@@ -110,6 +111,7 @@
             {
                 "id": "layerId",
                 "sourceLayer": "sirene",
+                "hover": true,
                 "layer": {
                     "id": "id-circle",
                     "source": "etab-sirene",
@@ -155,6 +157,7 @@
             {
                 "id": "layerId",
                 "sourceLayer": "ent_individuel",
+                "hover": true,
                 "layer": {
                     "id": "id-circle",
                     "source": "entrepreneur-individuel",

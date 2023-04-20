@@ -51,5 +51,14 @@
             "minzoom": 13,
             "maxzoom": 16
         }
+    },
+    {
+        "id": "plu-zone-urba",
+        "source": {
+            "type": "vector",
+            "tiles": ["/data/plu-zone-urba/{z}/{x}/{y}.pbf"],
+            "minzoom": 10,
+            "maxzoom": 16
+        }
     }
 ]
