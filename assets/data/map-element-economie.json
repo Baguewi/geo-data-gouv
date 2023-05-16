@@ -1,7 +1,7 @@
 [
     {
         "id": "layerId",
-        "fullName": "Personne morale et organisme soumis au droit administratif",
+        "fullName": "Etablissement public et organisme soumis au droit administratif",
         "minZoom": 15,
         "info": "Données visible à partir du zoom 15",
         "position": 11,
@@ -41,6 +41,16 @@
                 "id": "layerId",
                 "sourceLayer": "etab_public",
                 "hover": true,
+                "hoverTitle": "Etablissement public",
+                "hoverPostion": 0,
+                "hoverConfig": [
+                    { "attribut": ["raison_soc"], "text": "Raison sociale" },
+                    { "attribut": ["siren"], "text": "Numéro Siren" },
+                    { "attribut": ["siret"], "text": "Numéro Siret" },
+                    { "attribut": ["adresse", "cp", "commune"], "text": "Adresse" },
+                    { "attribut": ["siege"], "text": "Siège" },
+                    { "attribut": ["code_naf_etab"], "text": "Activité" }
+                ],
                 "layer": {
                     "id": "id-circle",
                     "source": "administratif-associatif",
@@ -72,7 +82,7 @@
     },
     {
         "id": "layerId",
-        "fullName": "Établissement des unités légales",
+        "fullName": "Entreprise",
         "minZoom": 15,
         "info": "Données visible à partir du zoom 15",
         "position": 6,
@@ -112,6 +122,16 @@
                 "id": "layerId",
                 "sourceLayer": "sirene",
                 "hover": true,
+                "hoverTitle": "Entreprise",
+                "hoverPostion": 0,
+                "hoverConfig": [
+                    { "attribut": ["raison_soc"], "text": "Raison sociale" },
+                    { "attribut": ["siren"], "text": "Numéro Siren" },
+                    { "attribut": ["siret"], "text": "Numéro Siret" },
+                    { "attribut": ["adresse", "cp", "commune"], "text": "Adresse" },
+                    { "attribut": ["siege"], "text": "Siège" },
+                    { "attribut": ["code_naf_etab"], "text": "Activité" }
+                ],
                 "layer": {
                     "id": "id-circle",
                     "source": "etab-sirene",
@@ -158,6 +178,14 @@
                 "id": "layerId",
                 "sourceLayer": "ent_individuel",
                 "hover": true,
+                "hoverTitle": "Entreprise individuelle",
+                "hoverPostion": 0,
+                "hoverConfig": [
+                    { "attribut": ["raison_soc"], "text": "Raison sociale" },
+                    { "attribut": ["siret"], "text": "Numéro Siret" },
+                    { "attribut": ["adresse", "cp", "commune"], "text": "Adresse" },
+                    { "attribut": ["code_naf_etab"], "text": "Activité" }
+                ],
                 "layer": {
                     "id": "id-circle",
                     "source": "entrepreneur-individuel",
