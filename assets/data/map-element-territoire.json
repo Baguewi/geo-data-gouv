@@ -38,6 +38,13 @@
             {
                 "id": "layerId",
                 "sourceLayer": "commune",
+                "hover": true,
+                "hoverTitle": "Commune",
+                "hoverPostion": 0,
+                "hoverConfig": [
+                    { "attribut": ["NOM"] },
+                    { "attribut": ["STATUT"], "text": "Statut" }
+                ],
                 "layer": {
                     "id": "id-fill",
                     "source": "admin-express",
@@ -55,7 +62,7 @@
     },
     {
         "id": "layerId",
-        "fullName": "Collectivite",
+        "fullName": "Collectivité",
         "minZoom": 0,
         "position": 3,
         "selected": false,
@@ -65,7 +72,7 @@
         "legend": {
             "list": [
                 {
-                    "texte": "Collectivite",
+                    "texte": "Collectivité",
                     "color": "#2596A8",
                     "type": "CARRE",
                     "width": 10
@@ -76,6 +83,12 @@
             {
                 "id": "layerId",
                 "sourceLayer": "collectivite",
+                "hover": true,
+                "hoverTitle": "Collectivité",
+                "hoverPostion": 0,
+                "hoverConfig": [
+                    { "attribut": ["NOM"] }
+                ],
                 "layer": {
                     "id": "id-fill",
                     "source": "admin-express",
@@ -93,7 +106,7 @@
     },
     {
         "id": "layerId",
-        "fullName": "Departement",
+        "fullName": "Département",
         "minZoom": 0,
         "position": 3,
         "selected": true,
@@ -102,7 +115,7 @@
         "legend": {
             "list": [
                 {
-                    "texte": "Departement",
+                    "texte": "Département",
                     "color": "#808080",
                     "type": "LIGNE",
                     "width": 10
@@ -163,7 +176,7 @@
     },
     {
         "id": "layerId",
-        "fullName": "Region",
+        "fullName": "Région",
         "minZoom": 0,
         "position": 3,
         "selected": false,
@@ -172,7 +185,7 @@
         "legend": {
             "list": [
                 {
-                    "texte": "Region",
+                    "texte": "Région",
                     "color": "#808080",
                     "type": "LIGNE",
                     "width": 10

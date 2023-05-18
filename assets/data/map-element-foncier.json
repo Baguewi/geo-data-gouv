@@ -23,6 +23,7 @@
             {
                 "id": "layerId",
                 "sourceLayer": "batiproprietaire",
+                "featureState": true,
                 "hover": true,
                 "hoverTitle": "Bati",
                 "hoverPostion": 0,
@@ -130,6 +131,7 @@
             {
                 "id": "layerId",
                 "sourceLayer": "pluzoneurba",
+                "featureState": true,
                 "hover": true,
                 "hoverTitle": "PLU",
                 "hoverPostion": 0,
@@ -189,6 +191,7 @@
             {
                 "id": "layerId",
                 "sourceLayer": "parcelles",
+                "featureState": true,
                 "hover": true,
                 "hoverTitle": "Cadastre",
                 "hoverPostion": 0,
