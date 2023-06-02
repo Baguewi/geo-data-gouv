@@ -7,7 +7,18 @@
         "position": 11,
         "selected": false,
         "category": "ECONOMIE",
-        "filter": {},
+        "filter": {
+            "list": [
+                {
+                    "title": "Activité",
+                    "type": "TREE_VIEW",
+                    "name": "PUBLIC_LISTE_ACTIVITE_NAF",
+                    "attribut": "code_naf_etab",
+                    "label": "Activité NAF",
+                    "placeholder": "Ex : Restauration traditionnelle"
+                }
+            ]
+        },
         "legend": {
             "list": [
                 {
@@ -42,7 +53,7 @@
                 "sourceLayer": "etab_public",
                 "hover": true,
                 "hoverTitle": "Etablissement public",
-                "hoverPostion": 0,
+                "hoverPosition": 0,
                 "hoverConfig": [
                     { "attribut": ["raison_soc"], "text": "Raison sociale" },
                     { "attribut": ["siren"], "text": "Numéro Siren" },
@@ -88,8 +99,59 @@
         "position": 6,
         "selected": true,
         "category": "ECONOMIE",
-        "filter": {},
+        "filter": {
+            "list": [
+                {
+                    "title": "Catégorie entreprise",
+                    "type": "SELECT",
+                    "attribut": "categorie",
+                    "itemSelect": [
+                        { "id": "GE", "libelle": "Grande Entreprise", "selected": true },
+                        { "id": "ETI", "libelle": "Entreprise de Taille Intermédiaire", "selected": true },
+                        { "id": "PME", "libelle": "Petite ou Moyenne Entreprise", "selected": true },
+                        { "id": "", "libelle": "Non classée", "selected": true }
+                    ]
+                },
+                {
+                    "title": "Date création de l'établissement",
+                    "type": "RANGE_DATE",
+                    "attribut": "creation_etab",
+                    "name": "DATE_CREATION_ETABLISSEMENT",
+                    "label": "Dates sélectionnées"
+                },
+                {
+                    "title": "Siège de l'entreprise",
+                    "type": "RADIO_BUTTON",
+                    "attribut": "siege",
+                    "name": "ADRESSE_SIEGE_ENTREPRISE"
+                },
+                {
+                    "title": "Effectif de l'établissement",
+                    "type": "RANGE_SLIDE",
+                    "attribut": "effectif_etab",
+                    "name": "LISTE_TRANCHE_EFFECTIF"
+                },
+                {
+                    "title": "Commune",
+                    "type": "SEARCH",
+                    "attribut": "code_insee",
+                    "name": "LISTE_COMMUNE",
+                    "label": "Communes sélectionnées",
+                    "placeholder": "Recherche par code insee ou nom de commune",
+                    "hint": "Ex : 44109 ou Nantes"
+                },
+                {
+                    "title": "Catégories juridiques",
+                    "type": "SELECT_SEARCH",
+                    "attribut": "cat_juridique",
+                    "name": "ENTREPRISE_LISTE_FORME_JURIDIQUE",
+                    "label": "Catégorie juridique des entreprises",
+                    "placeholder": "Ex : SAS, société par actions simplifiée"
+                }
+            ]
+        },
         "legend": {
+            "selected": false,
             "list": [
                 {
                     "texte": "Non classée",
@@ -117,13 +179,14 @@
                 }
             ]
         },
+        "table": {},
         "layers": [
             {
                 "id": "layerId",
                 "sourceLayer": "sirene",
                 "hover": true,
                 "hoverTitle": "Entreprise",
-                "hoverPostion": 0,
+                "hoverPosition": 0,
                 "hoverConfig": [
                     { "attribut": ["raison_soc"], "text": "Raison sociale" },
                     { "attribut": ["siren"], "text": "Numéro Siren" },
@@ -162,7 +225,18 @@
         "position": 11,
         "selected": false,
         "category": "ECONOMIE",
-        "filter": {},
+        "filter": {
+            "list": [
+                {
+                    "title": "Activité de l'entreprise individuelle",
+                    "type": "TREE_VIEW",
+                    "attribut": "code_naf_ent",
+                    "name": "AUTOENTREPRISE_LISTE_ACTIVITE_NAF",
+                    "label": "Activité NAF",
+                    "placeholder": "Ex : Restauration traditionnelle"
+                }
+            ]
+        },
         "legend": {
             "list": [
                 {
@@ -179,7 +253,7 @@
                 "sourceLayer": "ent_individuel",
                 "hover": true,
                 "hoverTitle": "Entreprise individuelle",
-                "hoverPostion": 0,
+                "hoverPosition": 0,
                 "hoverConfig": [
                     { "attribut": ["raison_soc"], "text": "Raison sociale" },
                     { "attribut": ["siret"], "text": "Numéro Siret" },

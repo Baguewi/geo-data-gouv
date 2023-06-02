@@ -40,7 +40,7 @@
                 "sourceLayer": "commune",
                 "hover": true,
                 "hoverTitle": "Commune",
-                "hoverPostion": 0,
+                "hoverPosition": 0,
                 "hoverConfig": [
                     { "attribut": ["NOM"] },
                     { "attribut": ["STATUT"], "text": "Statut" }
@@ -85,7 +85,7 @@
                 "sourceLayer": "collectivite",
                 "hover": true,
                 "hoverTitle": "Collectivité",
-                "hoverPostion": 0,
+                "hoverPosition": 0,
                 "hoverConfig": [
                     { "attribut": ["NOM"] }
                 ],

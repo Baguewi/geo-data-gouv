@@ -1,0 +1,1042 @@
+[
+    {
+      "id": "0000",
+      "libelle": "Organisme de placement collectif en valeurs mobilières sans personnalité morale"
+    },
+    {
+      "id": "1000",
+      "libelle": "Entrepreneur individuel"
+    },
+    {
+      "id": "2110",
+      "libelle": "Indivision entre personnes physiques"
+    },
+    {
+      "id": "2120",
+      "libelle": "Indivision avec personne morale"
+    },
+    {
+      "id": "2210",
+      "libelle": "Société créée de fait entre personnes physiques"
+    },
+    {
+      "id": "2220",
+      "libelle": "Société créée de fait avec personne morale"
+    },
+    {
+      "id": "2310",
+      "libelle": "Société en participation entre personnes physiques"
+    },
+    {
+      "id": "2320",
+      "libelle": "Société en participation avec personne morale"
+    },
+    {
+      "id": "2385",
+      "libelle": "Société en participation de professions libérales"
+    },
+    {
+      "id": "2400",
+      "libelle": "Fiducie"
+    },
+    {
+      "id": "2700",
+      "libelle": "Paroisse hors zone concordataire"
+    },
+    {
+      "id": "2800",
+      "libelle": "Assujetti unique à la TVA"
+    },
+    {
+      "id": "2900",
+      "libelle": "Autre groupement de droit privé non doté de la personnalité morale"
+    },
+    {
+      "id": "3110",
+      "libelle": "Représentation ou agence commerciale d'état ou organisme public étranger immatriculé au RCS"
+    },
+    {
+      "id": "3120",
+      "libelle": "Société commerciale étrangère immatriculée au RCS"
+    },
+    {
+      "id": "3205",
+      "libelle": "Organisation internationale"
+    },
+    {
+      "id": "3210",
+      "libelle": "État, collectivité ou établissement public étranger"
+    },
+    {
+      "id": "3220",
+      "libelle": "Société étrangère non immatriculée au RCS"
+    },
+    {
+      "id": "3290",
+      "libelle": "Autre personne morale de droit étranger"
+    },
+    {
+      "id": "4110",
+      "libelle": "Établissement public national à caractère industriel ou commercial doté d'un comptable public"
+    },
+    {
+      "id": "4120",
+      "libelle": "Établissement public national à caractère industriel ou commercial non doté d'un comptable public"
+    },
+    {
+      "id": "4130",
+      "libelle": "Exploitant public"
+    },
+    {
+      "id": "4140",
+      "libelle": "Établissement public local à caractère industriel ou commercial"
+    },
+    {
+      "id": "4150",
+      "libelle": "Régie d'une collectivité locale à caractère industriel ou commercial"
+    },
+    {
+      "id": "4160",
+      "libelle": "Institution Banque de France"
+    },
+    {
+      "id": "5191",
+      "libelle": "Société de caution mutuelle"
+    },
+    {
+      "id": "5192",
+      "libelle": "Société coopérative de banque populaire"
+    },
+    {
+      "id": "5193",
+      "libelle": "Caisse de crédit maritime mutuel"
+    },
+    {
+      "id": "5194",
+      "libelle": "Caisse (fédérale) de crédit mutuel"
+    },
+    {
+      "id": "5195",
+      "libelle": "Association coopérative inscrite (droit local Alsace Moselle)"
+    },
+    {
+      "id": "5196",
+      "libelle": "Caisse d'épargne et de prévoyance à forme coopérative"
+    },
+    {
+      "id": "5202",
+      "libelle": "Société en nom collectif"
+    },
+    {
+      "id": "5203",
+      "libelle": "Société en nom collectif coopérative"
+    },
+    {
+      "id": "5306",
+      "libelle": "Société en commandite simple"
+    },
+    {
+      "id": "5307",
+      "libelle": "Société en commandite simple coopérative"
+    },
+    {
+      "id": "5308",
+      "libelle": "Société en commandite par actions"
+    },
+    {
+      "id": "5309",
+      "libelle": "Société en commandite par actions coopérative"
+    },
+    {
+      "id": "5310",
+      "libelle": "Société en libre partenariat (SLP)"
+    },
+    {
+      "id": "5370",
+      "libelle": "Société de Participations Financières de Profession Libérale Société en commandite par actions (SPFPL SCA)"
+    },
+    {
+      "id": "5385",
+      "libelle": "Société d'exercice libéral en commandite par actions"
+    },
+    {
+      "id": "5410",
+      "libelle": "SARL nationale"
+    },
+    {
+      "id": "5415",
+      "libelle": "SARL d'économie mixte"
+    },
+    {
+      "id": "5422",
+      "libelle": "SARL immobilière pour le commerce et l'industrie (SICOMI)"
+    },
+    {
+      "id": "5426",
+      "libelle": "SARL immobilière de gestion"
+    },
+    {
+      "id": "5430",
+      "libelle": "SARL d'aménagement foncier et d'équipement rural (SAFER)"
+    },
+    {
+      "id": "5431",
+      "libelle": "SARL mixte d'intérêt agricole (SMIA)"
+    },
+    {
+      "id": "5432",
+      "libelle": "SARL d'intérêt collectif agricole (SICA)"
+    },
+    {
+      "id": "5442",
+      "libelle": "SARL d'attribution"
+    },
+    {
+      "id": "5443",
+      "libelle": "SARL coopérative de construction"
+    },
+    {
+      "id": "5451",
+      "libelle": "SARL coopérative de consommation"
+    },
+    {
+      "id": "5453",
+      "libelle": "SARL coopérative artisanale"
+    },
+    {
+      "id": "5454",
+      "libelle": "SARL coopérative d'intérêt maritime"
+    },
+    {
+      "id": "5455",
+      "libelle": "SARL coopérative de transport"
+    },
+    {
+      "id": "5458",
+      "libelle": "SARL coopérative de production (SCOP)"
+    },
+    {
+      "id": "5459",
+      "libelle": "SARL union de sociétés coopératives"
+    },
+    {
+      "id": "5460",
+      "libelle": "Autre SARL coopérative"
+    },
+    {
+      "id": "5470",
+      "libelle": "Société de Participations Financières de Profession Libérale Société à responsabilité limitée (SPFPL SARL)"
+    },
+    {
+      "id": "5485",
+      "libelle": "Société d'exercice libéral à responsabilité limitée"
+    },
+    {
+      "id": "5499",
+      "libelle": "Société à responsabilité limitée (sans autre indication)"
+    },
+    {
+      "id": "5505",
+      "libelle": "SA à participation ouvrière à conseil d'administration"
+    },
+    {
+      "id": "5510",
+      "libelle": "SA nationale à conseil d'administration"
+    },
+    {
+      "id": "5515",
+      "libelle": "SA d'économie mixte à conseil d'administration"
+    },
+    {
+      "id": "5520",
+      "libelle": "Fonds à forme sociétale à conseil d'administration"
+    },
+    {
+      "id": "5522",
+      "libelle": "SA immobilière pour le commerce et l'industrie (SICOMI) à conseil d'administration"
+    },
+    {
+      "id": "5525",
+      "libelle": "SA immobilière d'investissement à conseil d'administration"
+    },
+    {
+      "id": "5530",
+      "libelle": "SA d'aménagement foncier et d'équipement rural (SAFER) à conseil d'administration"
+    },
+    {
+      "id": "5531",
+      "libelle": "Société anonyme mixte d'intérêt agricole (SMIA) à conseil d'administration"
+    },
+    {
+      "id": "5532",
+      "libelle": "SA d'intérêt collectif agricole (SICA) à conseil d'administration"
+    },
+    {
+      "id": "5542",
+      "libelle": "SA d'attribution à conseil d'administration"
+    },
+    {
+      "id": "5543",
+      "libelle": "SA coopérative de construction à conseil d'administration"
+    },
+    {
+      "id": "5546",
+      "libelle": "SA de HLM à conseil d'administration"
+    },
+    {
+      "id": "5547",
+      "libelle": "SA coopérative de production de HLM à conseil d'administration"
+    },
+    {
+      "id": "5548",
+      "libelle": "SA de crédit immobilier à conseil d'administration"
+    },
+    {
+      "id": "5551",
+      "libelle": "SA coopérative de consommation à conseil d'administration"
+    },
+    {
+      "id": "5552",
+      "libelle": "SA coopérative de commerçants-détaillants à conseil d'administration"
+    },
+    {
+      "id": "5553",
+      "libelle": "SA coopérative artisanale à conseil d'administration"
+    },
+    {
+      "id": "5554",
+      "libelle": "SA coopérative (d'intérêt) maritime à conseil d'administration"
+    },
+    {
+      "id": "5555",
+      "libelle": "SA coopérative de transport à conseil d'administration"
+    },
+    {
+      "id": "5558",
+      "libelle": "SA coopérative de production  (SCOP) à conseil d'administration"
+    },
+    {
+      "id": "5559",
+      "libelle": "SA union de sociétés coopératives à conseil d'administration"
+    },
+    {
+      "id": "5560",
+      "libelle": "Autre SA coopérative à conseil d'administration"
+    },
+    {
+      "id": "5570",
+      "libelle": "Société de Participations Financières de Profession Libérale Société anonyme à conseil d'administration (SPFPL SA à conseil d'administration)"
+    },
+    {
+      "id": "5585",
+      "libelle": "Société d'exercice libéral à forme anonyme à conseil d'administration"
+    },
+    {
+      "id": "5599",
+      "libelle": "SA à conseil d'administration (s.a.i.)"
+    },
+    {
+      "id": "5605",
+      "libelle": "SA à participation ouvrière à directoire"
+    },
+    {
+      "id": "5610",
+      "libelle": "SA nationale à directoire"
+    },
+    {
+      "id": "5615",
+      "libelle": "SA d'économie mixte à directoire"
+    },
+    {
+      "id": "5620",
+      "libelle": "Fonds à forme sociétale à directoire"
+    },
+    {
+      "id": "5622",
+      "libelle": "SA immobilière pour le commerce et l'industrie (SICOMI) à directoire"
+    },
+    {
+      "id": "5625",
+      "libelle": "SA immobilière d'investissement à directoire"
+    },
+    {
+      "id": "5630",
+      "libelle": "Safer anonyme à directoire"
+    },
+    {
+      "id": "5631",
+      "libelle": "SA mixte d'intérêt agricole (SMIA)"
+    },
+    {
+      "id": "5632",
+      "libelle": "SA d'intérêt collectif agricole (SICA)"
+    },
+    {
+      "id": "5642",
+      "libelle": "SA d'attribution à directoire"
+    },
+    {
+      "id": "5643",
+      "libelle": "SA coopérative de construction à directoire"
+    },
+    {
+      "id": "5646",
+      "libelle": "SA de HLM à directoire"
+    },
+    {
+      "id": "5647",
+      "libelle": "Société coopérative de production de HLM anonyme à directoire"
+    },
+    {
+      "id": "5648",
+      "libelle": "SA de crédit immobilier à directoire"
+    },
+    {
+      "id": "5651",
+      "libelle": "SA coopérative de consommation à directoire"
+    },
+    {
+      "id": "5652",
+      "libelle": "SA coopérative de commerçants-détaillants à directoire"
+    },
+    {
+      "id": "5653",
+      "libelle": "SA coopérative artisanale à directoire"
+    },
+    {
+      "id": "5654",
+      "libelle": "SA coopérative d'intérêt maritime à directoire"
+    },
+    {
+      "id": "5655",
+      "libelle": "SA coopérative de transport à directoire"
+    },
+    {
+      "id": "5658",
+      "libelle": "SA coopérative de production (SCOP) à directoire"
+    },
+    {
+      "id": "5659",
+      "libelle": "SA union de sociétés coopératives à directoire"
+    },
+    {
+      "id": "5660",
+      "libelle": "Autre SA coopérative à directoire"
+    },
+    {
+      "id": "5670",
+      "libelle": "Société de Participations Financières de Profession Libérale Société anonyme à Directoire (SPFPL SA à directoire)"
+    },
+    {
+      "id": "5685",
+      "libelle": "Société d'exercice libéral à forme anonyme à directoire"
+    },
+    {
+      "id": "5699",
+      "libelle": "SA à directoire (s.a.i.)"
+    },
+    {
+      "id": "5710",
+      "libelle": "SAS, société par actions simplifiée"
+    },
+    {
+      "id": "5770",
+      "libelle": "Société de Participations Financières de Profession Libérale Société par actions simplifiée (SPFPL SAS)"
+    },
+    {
+      "id": "5785",
+      "libelle": "Société d'exercice libéral par action simplifiée"
+    },
+    {
+      "id": "5800",
+      "libelle": "Société européenne"
+    },
+    {
+      "id": "6100",
+      "libelle": "Caisse d'Épargne et de Prévoyance"
+    },
+    {
+      "id": "6210",
+      "libelle": "Groupement européen d'intérêt économique (GEIE)"
+    },
+    {
+      "id": "6220",
+      "libelle": "Groupement d'intérêt économique (GIE)"
+    },
+    {
+      "id": "6316",
+      "libelle": "Coopérative d'utilisation de matériel agricole en commun (CUMA)"
+    },
+    {
+      "id": "6317",
+      "libelle": "Société coopérative agricole"
+    },
+    {
+      "id": "6318",
+      "libelle": "Union de sociétés coopératives agricoles"
+    },
+    {
+      "id": "6411",
+      "libelle": "Société d'assurance à forme mutuelle"
+    },
+    {
+      "id": "6511",
+      "libelle": "Sociétés Interprofessionnelles de Soins Ambulatoires"
+    },
+    {
+      "id": "6521",
+      "libelle": "Société civile de placement collectif immobilier (SCPI)"
+    },
+    {
+      "id": "6532",
+      "libelle": "Société civile d'intérêt collectif agricole (SICA)"
+    },
+    {
+      "id": "6533",
+      "libelle": "Groupement agricole d'exploitation en commun (GAEC)"
+    },
+    {
+      "id": "6534",
+      "libelle": "Groupement foncier agricole"
+    },
+    {
+      "id": "6535",
+      "libelle": "Groupement agricole foncier"
+    },
+    {
+      "id": "6536",
+      "libelle": "Groupement forestier"
+    },
+    {
+      "id": "6537",
+      "libelle": "Groupement pastoral"
+    },
+    {
+      "id": "6538",
+      "libelle": "Groupement foncier et rural"
+    },
+    {
+      "id": "6539",
+      "libelle": "Société civile foncière"
+    },
+    {
+      "id": "6540",
+      "libelle": "Société civile immobilière"
+    },
+    {
+      "id": "6541",
+      "libelle": "Société civile immobilière de construction-vente"
+    },
+    {
+      "id": "6542",
+      "libelle": "Société civile d'attribution"
+    },
+    {
+      "id": "6543",
+      "libelle": "Société civile coopérative de construction"
+    },
+    {
+      "id": "6544",
+      "libelle": "Société civile immobilière d' accession progressive à la propriété"
+    },
+    {
+      "id": "6551",
+      "libelle": "Société civile coopérative de consommation"
+    },
+    {
+      "id": "6554",
+      "libelle": "Société civile coopérative d'intérêt maritime"
+    },
+    {
+      "id": "6558",
+      "libelle": "Société civile coopérative entre médecins"
+    },
+    {
+      "id": "6560",
+      "libelle": "Autre société civile coopérative"
+    },
+    {
+      "id": "6561",
+      "libelle": "SCP d'avocats"
+    },
+    {
+      "id": "6562",
+      "libelle": "SCP d'avocats aux conseils"
+    },
+    {
+      "id": "6563",
+      "libelle": "SCP d'avoués d'appel"
+    },
+    {
+      "id": "6564",
+      "libelle": "SCP d'huissiers"
+    },
+    {
+      "id": "6565",
+      "libelle": "SCP de notaires"
+    },
+    {
+      "id": "6566",
+      "libelle": "SCP de commissaires-priseurs"
+    },
+    {
+      "id": "6567",
+      "libelle": "SCP de greffiers de tribunal de commerce"
+    },
+    {
+      "id": "6568",
+      "libelle": "SCP de conseils juridiques"
+    },
+    {
+      "id": "6569",
+      "libelle": "SCP de commissaires aux comptes"
+    },
+    {
+      "id": "6571",
+      "libelle": "SCP de médecins"
+    },
+    {
+      "id": "6572",
+      "libelle": "SCP de dentistes"
+    },
+    {
+      "id": "6573",
+      "libelle": "SCP d'infirmiers"
+    },
+    {
+      "id": "6574",
+      "libelle": "SCP de masseurs-kinésithérapeutes"
+    },
+    {
+      "id": "6575",
+      "libelle": "SCP de directeurs de laboratoire d'analyse médicale"
+    },
+    {
+      "id": "6576",
+      "libelle": "SCP de vétérinaires"
+    },
+    {
+      "id": "6577",
+      "libelle": "SCP de géomètres experts"
+    },
+    {
+      "id": "6578",
+      "libelle": "SCP d'architectes"
+    },
+    {
+      "id": "6585",
+      "libelle": "Autre société civile professionnelle"
+    },
+    {
+      "id": "6589",
+      "libelle": "Société civile de moyens"
+    },
+    {
+      "id": "6595",
+      "libelle": "Caisse locale de crédit mutuel"
+    },
+    {
+      "id": "6596",
+      "libelle": "Caisse de crédit agricole mutuel"
+    },
+    {
+      "id": "6597",
+      "libelle": "Société civile d'exploitation agricole"
+    },
+    {
+      "id": "6598",
+      "libelle": "Exploitation agricole à responsabilité limitée"
+    },
+    {
+      "id": "6599",
+      "libelle": "Autre société civile"
+    },
+    {
+      "id": "6901",
+      "libelle": "Autre personne de droit privé inscrite au registre du commerce et des sociétés"
+    },
+    {
+      "id": "7111",
+      "libelle": "Autorité constitutionnelle"
+    },
+    {
+      "id": "7112",
+      "libelle": "Autorité administrative ou publique indépendante"
+    },
+    {
+      "id": "7113",
+      "libelle": "Ministère"
+    },
+    {
+      "id": "7120",
+      "libelle": "Service central d'un ministère"
+    },
+    {
+      "id": "7150",
+      "libelle": "Service du ministère de la Défense"
+    },
+    {
+      "id": "7160",
+      "libelle": "Service déconcentré à compétence nationale d'un ministère (hors Défense)"
+    },
+    {
+      "id": "7171",
+      "libelle": "Service déconcentré de l'État à compétence (inter) régionale"
+    },
+    {
+      "id": "7172",
+      "libelle": "Service déconcentré de l'État à compétence (inter) départementale"
+    },
+    {
+      "id": "7179",
+      "libelle": "(Autre) Service déconcentré de l'État à compétence territoriale"
+    },
+    {
+      "id": "7190",
+      "libelle": "Ecole nationale non dotée de la personnalité morale"
+    },
+    {
+      "id": "7210",
+      "libelle": "Commune et commune nouvelle"
+    },
+    {
+      "id": "7220",
+      "libelle": "Département"
+    },
+    {
+      "id": "7225",
+      "libelle": "Collectivité et territoire d'Outre Mer"
+    },
+    {
+      "id": "7229",
+      "libelle": "(Autre) Collectivité territoriale"
+    },
+    {
+      "id": "7230",
+      "libelle": "Région"
+    },
+    {
+      "id": "7312",
+      "libelle": "Commune associée et commune déléguée"
+    },
+    {
+      "id": "7313",
+      "libelle": "Section de commune"
+    },
+    {
+      "id": "7314",
+      "libelle": "Ensemble urbain"
+    },
+    {
+      "id": "7321",
+      "libelle": "Association syndicale autorisée"
+    },
+    {
+      "id": "7322",
+      "libelle": "Association foncière urbaine"
+    },
+    {
+      "id": "7323",
+      "libelle": "Association foncière de remembrement"
+    },
+    {
+      "id": "7331",
+      "libelle": "Établissement public local d'enseignement"
+    },
+    {
+      "id": "7340",
+      "libelle": "Pôle métropolitain"
+    },
+    {
+      "id": "7341",
+      "libelle": "Secteur de commune"
+    },
+    {
+      "id": "7342",
+      "libelle": "District urbain"
+    },
+    {
+      "id": "7343",
+      "libelle": "Communauté urbaine"
+    },
+    {
+      "id": "7344",
+      "libelle": "Métropole"
+    },
+    {
+      "id": "7345",
+      "libelle": "Syndicat intercommunal à vocation multiple (SIVOM)"
+    },
+    {
+      "id": "7346",
+      "libelle": "Communauté de communes"
+    },
+    {
+      "id": "7347",
+      "libelle": "Communauté de villes"
+    },
+    {
+      "id": "7348",
+      "libelle": "Communauté d'agglomération"
+    },
+    {
+      "id": "7349",
+      "libelle": "Autre établissement public local de coopération non spécialisé ou entente"
+    },
+    {
+      "id": "7351",
+      "libelle": "Institution interdépartementale ou entente"
+    },
+    {
+      "id": "7352",
+      "libelle": "Institution interrégionale ou entente"
+    },
+    {
+      "id": "7353",
+      "libelle": "Syndicat intercommunal à vocation unique (SIVU)"
+    },
+    {
+      "id": "7354",
+      "libelle": "Syndicat mixte fermé"
+    },
+    {
+      "id": "7355",
+      "libelle": "Syndicat mixte ouvert"
+    },
+    {
+      "id": "7356",
+      "libelle": "Commission syndicale pour la gestion des biens indivis des communes"
+    },
+    {
+      "id": "7357",
+      "libelle": "Pôle d'équilibre territorial et rural (PETR)"
+    },
+    {
+      "id": "7361",
+      "libelle": "Centre communal d'action sociale"
+    },
+    {
+      "id": "7362",
+      "libelle": "Caisse des écoles"
+    },
+    {
+      "id": "7363",
+      "libelle": "Caisse de crédit municipal"
+    },
+    {
+      "id": "7364",
+      "libelle": "Établissement d'hospitalisation"
+    },
+    {
+      "id": "7365",
+      "libelle": "Syndicat inter hospitalier"
+    },
+    {
+      "id": "7366",
+      "libelle": "Établissement public local social et médico-social"
+    },
+    {
+      "id": "7367",
+      "libelle": "Centre Intercommunal d'action sociale (CIAS)"
+    },
+    {
+      "id": "7371",
+      "libelle": "Office public d'habitation à loyer modéré (OPHLM)"
+    },
+    {
+      "id": "7372",
+      "libelle": "Service départemental d'incendie et de secours (SDIS)"
+    },
+    {
+      "id": "7373",
+      "libelle": "Établissement public local culturel"
+    },
+    {
+      "id": "7378",
+      "libelle": "Régie d'une collectivité locale à caractère administratif"
+    },
+    {
+      "id": "7379",
+      "libelle": "(Autre) Établissement public administratif local"
+    },
+    {
+      "id": "7381",
+      "libelle": "Organisme consulaire"
+    },
+    {
+      "id": "7382",
+      "libelle": "Établissement public national ayant fonction d'administration centrale"
+    },
+    {
+      "id": "7383",
+      "libelle": "Établissement public national à caractère scientifique culturel et professionnel"
+    },
+    {
+      "id": "7384",
+      "libelle": "Autre établissement public national d'enseignement"
+    },
+    {
+      "id": "7385",
+      "libelle": "Autre établissement public national administratif à compétence territoriale limitée"
+    },
+    {
+      "id": "7389",
+      "libelle": "Établissement public national à caractère administratif"
+    },
+    {
+      "id": "7410",
+      "libelle": "Groupement d'intérêt public (GIP)"
+    },
+    {
+      "id": "7430",
+      "libelle": "Établissement public des cultes d'Alsace-Lorraine"
+    },
+    {
+      "id": "7450",
+      "libelle": "Etablissement public administratif, cercle et foyer dans les armées"
+    },
+    {
+      "id": "7470",
+      "libelle": "Groupement de coopération sanitaire à gestion publique"
+    },
+    {
+      "id": "7490",
+      "libelle": "Autre personne morale de droit administratif"
+    },
+    {
+      "id": "8110",
+      "libelle": "Régime général de la Sécurité Sociale"
+    },
+    {
+      "id": "8120",
+      "libelle": "Régime spécial de Sécurité Sociale"
+    },
+    {
+      "id": "8130",
+      "libelle": "Institution de retraite complémentaire"
+    },
+    {
+      "id": "8140",
+      "libelle": "Mutualité sociale agricole"
+    },
+    {
+      "id": "8150",
+      "libelle": "Régime maladie des non-salariés non agricoles"
+    },
+    {
+      "id": "8160",
+      "libelle": "Régime vieillesse ne dépendant pas du régime général de la Sécurité Sociale"
+    },
+    {
+      "id": "8170",
+      "libelle": "Régime d'assurance chômage"
+    },
+    {
+      "id": "8190",
+      "libelle": "Autre régime de prévoyance sociale"
+    },
+    {
+      "id": "8210",
+      "libelle": "Mutuelle"
+    },
+    {
+      "id": "8250",
+      "libelle": "Assurance mutuelle agricole"
+    },
+    {
+      "id": "8290",
+      "libelle": "Autre organisme mutualiste"
+    },
+    {
+      "id": "8310",
+      "libelle": "Comité social économique d’entreprise"
+    },
+    {
+      "id": "8311",
+      "libelle": "Comité social économique d'établissement"
+    },
+    {
+      "id": "8410",
+      "libelle": "Syndicat de salariés"
+    },
+    {
+      "id": "8420",
+      "libelle": "Syndicat patronal"
+    },
+    {
+      "id": "8450",
+      "libelle": "Ordre professionnel ou assimilé"
+    },
+    {
+      "id": "8470",
+      "libelle": "Centre technique industriel ou comité professionnel du développement économique"
+    },
+    {
+      "id": "8490",
+      "libelle": "Autre organisme professionnel"
+    },
+    {
+      "id": "8510",
+      "libelle": "Institution de prévoyance"
+    },
+    {
+      "id": "8520",
+      "libelle": "Institution de retraite supplémentaire"
+    },
+    {
+      "id": "9110",
+      "libelle": "Syndicat de copropriété"
+    },
+    {
+      "id": "9150",
+      "libelle": "Association syndicale libre"
+    },
+    {
+      "id": "9210",
+      "libelle": "Association non déclarée"
+    },
+    {
+      "id": "9220",
+      "libelle": "Association déclarée"
+    },
+    {
+      "id": "9221",
+      "libelle": "Association déclarée d'insertion par l'économique"
+    },
+    {
+      "id": "9222",
+      "libelle": "Association intermédiaire"
+    },
+    {
+      "id": "9223",
+      "libelle": "Groupement d'employeurs"
+    },
+    {
+      "id": "9224",
+      "libelle": "Association d'avocats à responsabilité professionnelle individuelle"
+    },
+    {
+      "id": "9230",
+      "libelle": "Association déclarée, reconnue d'utilité publique"
+    },
+    {
+      "id": "9240",
+      "libelle": "Congrégation"
+    },
+    {
+      "id": "9260",
+      "libelle": "Association de droit local (Bas-Rhin, Haut-Rhin et Moselle)"
+    },
+    {
+      "id": "9300",
+      "libelle": "Fondation"
+    },
+    {
+      "id": "9900",
+      "libelle": "Autre personne morale de droit privé"
+    },
+    {
+      "id": "9970",
+      "libelle": "Groupement de coopération sanitaire à gestion privée"
+    }
+]
