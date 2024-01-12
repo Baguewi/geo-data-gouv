@@ -1175,7 +1175,7 @@
         apiUrl: 'http://localhost:4000',
 
         /* tileUrl: 'http://localhost:8080', */
-        tileUrl: 'https://tuile-data.timbi-dev.com',
+        tileUrl: 'https://data-tuile.timbi-dev.com',
         mapbox: {
           accessToken: 'pk.eyJ1IjoibW9keXlheWEiLCJhIjoiY2s4ZDdvYTZlMDlzYjNmbWw0cDA0cGMyNCJ9.uP3__gpzLgNDzRGHTCB7LA',
           style: {
